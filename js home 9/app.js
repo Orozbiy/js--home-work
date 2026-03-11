@@ -8,13 +8,13 @@
     let program = Number(prompt("Программалоо боюнча баа (0-100):"));
     
 
-    let absences = Number(prompt("Калтырылган сабактардын саны:"));
+    let abs = Number(prompt("Калтырылган сабактардын саны:"));
 
 
     let avera = (mathem + lang + program) / 3;
 
 
-    if (absences === 0) {
+    if (abs === 0) {
         avera += 5;
         alert("Бонус +5 балл идеалдуу катышуу үчүн!");
     }
